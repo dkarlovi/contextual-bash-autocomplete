@@ -1,0 +1,5 @@
+#!/usr/bin/env php
+<?php
+if ($_SERVER['argc'] > 1 && $_SERVER['argv'][1] == '--help') {
+    echo '--help --import';
+}
